@@ -198,7 +198,6 @@ body {
 
 .items li img {
 	width: 100%;
-	
 	-webkit-transition: all 0.2s linear, 1s;
     -moz-transition: all 0.2s linear, 1s;
     -o-transition: all 0.2s linear, 1s;
@@ -210,8 +209,9 @@ body {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	background-color: honeydew;
+	background-color: #edde32;
 	box-shadow: 6px 6px 6px gray;
+	border: #fafafa 1px solid;
 }
 
 .items .icons {
