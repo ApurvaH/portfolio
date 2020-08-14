@@ -1,7 +1,7 @@
 body {
 	font-size: 14px;
     color: #333;
-    background-color: #fff;
+    background-color: whitesmoke;
     letter-spacing: 1px;
 }
 
@@ -70,7 +70,7 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color:gainsboro;
+	background-color: #19171A;
 	color: #fff;
 }
 
@@ -81,10 +81,6 @@ body {
 
 .skillset {
 	padding: 8px;
-}
-
-.portfolioSection {
-	background-color: peachpuff;
 }
 
 .skill {
@@ -316,8 +312,10 @@ body {
 }
 
 #navigation {
-	background-color: #e74c3c;
-    padding: 20px 10px;
+	background-color: #8d8c8a;
+	padding: 15px 10px;
+	padding-left: 35px;
+	font-size: large;
     z-index: 100;
     width: 100%;
 }
