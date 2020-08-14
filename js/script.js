@@ -17,7 +17,10 @@ $(document).ready(function() {
 		startDelay: 1000,
 		showCursor: false
 	});
+<<<<<<< HEAD
 
+=======
+>>>>>>> Restructure website
 	$("[data-fancybox]").fancybox();
 
 	$(".items").isotope({

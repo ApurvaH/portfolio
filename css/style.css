@@ -70,8 +70,17 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color: #e74c3c;
+	background-color:gainsboro;
 	color: #fff;
+}
+
+.skillicon {
+	font-size: 64px;
+	padding: 8px;
+}
+
+.skillset {
+	padding: 8px;
 }
 
 .portfolioSection {
@@ -82,32 +91,6 @@ body {
 	text-align: center;
 	margin-left: 10px;
 }
-
-.chart {
-	position: relative;
-    width: 152px;
-    height: 152px;
-    display: inline-block;
-    text-align: center;
-}
-
-.chart canvas {
-	position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.chart .percent {
-	color: #000;
-    line-height: 152px;
-    display: inline-block;
-    font-size: 35px;
-}
-
-.chart .percent:after {
-	content: '%';
-}
-
 
 .squareItem {
 	margin-top: 30px;
@@ -130,7 +113,6 @@ body {
 	width: 30%;
 	border-bottom: 2px solid #444;
 }
-
 
 .squareInnerContainer:before {
 	right: 0px;
