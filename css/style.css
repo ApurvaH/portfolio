@@ -68,10 +68,23 @@ body {
 	max-width: 100%;
 }
 
+.about-content {
+	font-size: 18px;
+	white-space: pre-line;
+}
+
+.about-link {
+	color: #e74c3c;
+}
+
 .skillsSection,
 .contactSection {
 	background-color: #19171A;
 	color: #fff;
+}
+
+.contactSection .subHeading {
+	font-size: 23px;
 }
 
 .skillicon {
@@ -153,6 +166,22 @@ body {
 }
 
 .contactButton:hover {
+	text-decoration: none;
+	color: #e74c3c;
+	background-color: #fff;
+}
+
+.resumeButton {
+	background-color: #e74c3c;
+	color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #fff;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.resumeButton:hover {
 	text-decoration: none;
 	color: #e74c3c;
 	background-color: #fff;
