@@ -2,14 +2,18 @@ body {
 	font-size: 14px;
     color: #333;
     background-color: whitesmoke;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
+	overflow-x: hidden;
 }
 
 .landing {
 	width: 100vw;
 	height: 100vh;
-
 	background: url("../img/slide1.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .landing #image-background {
@@ -48,6 +52,10 @@ body {
 
 .aboutImage {
 	max-width: 100%;
+}
+
+.about-heading {
+	margin-top: 10px;
 }
 
 .about-content {
