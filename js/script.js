@@ -6,7 +6,7 @@ $(window).on("load", function() {
 
 $(document).ready(function() {
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Web Developer.", "Student."],
+		strings: ["Software Engineer.", "Site Reliability Engineer.", "Web Developer.", "Student."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
