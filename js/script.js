@@ -6,7 +6,7 @@ $(window).on("load", function() {
 
 $(document).ready(function() {
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Site Reliability Engineer.", "Web Developer.", "Student."],
+		strings: ["Software Engineer", "Backend Engineer", "Not a Robot!!!", "Forever a Student :-)"],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
@@ -62,19 +62,3 @@ $(document).ready(function() {
 		}
 	}
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
